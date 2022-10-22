@@ -1,0 +1,580 @@
+h1 {
+   font-family:  'Anton', sans-serif;
+    font-weight:bolder ;
+    text-align: left;
+    line-height: 80px;
+   margin:auto;
+    font-size:100px;
+   position: absolute;
+    bottom: 2.6em;
+    left:35%;
+   color: white;
+   
+
+}
+.prasad{
+    font-size: 70PX;
+    letter-spacing: 5PX;
+    font-weight: lighter;
+   
+    position: absolute;
+    left: 1em;
+    top: 3em;
+    padding-right: 1.5em;
+    -webkit-text-stroke: 1.7px black;
+   
+    }
+.jadhav{
+    font-size: 10em;
+    font-weight: lighter;
+    letter-spacing:6px ;
+    position: absolute;
+    left: 4.72em;
+    top: 1.7em;
+    padding-right: 1.5em;
+    -webkit-text-stroke: 1.7px black;
+    
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    
+  }
+  
+    
+
+    
+    
+
+
+body {
+    margin-top: 0;
+    
+}
+.container-fluid{
+   
+    margin: 0;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    position:relative;
+    height: 10em;
+    
+    
+    
+    
+}
+.image1{
+    position: relative;
+    left:26em;
+    top:3em;
+    
+}
+.image2{
+    position: relative;
+    left:57em;
+    top:3em;
+    
+}
+.mountains{
+    margin-bottom: 0;
+    width: 45%;
+    position: absolute;
+    bottom:0;
+    right:24em;
+
+    
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 1;
+    font-family:  'Anton', sans-serif;
+    color: red;
+   
+    letter-spacing: 5px;
+    font-size: auto;
+}
+#skills{
+    letter-spacing:2px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder ;
+   font-size: 60px;
+   display: block;
+   text-align: center;
+   margin: auto;
+   position: relative;
+   top: 7em;
+   color:red;
+    }
+
+.image3{
+width: 100%;
+position:absolute;
+top: 0;
+height: 50em;
+}
+.web{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+   
+    font-size: 1.2rem;
+    position: absolute;
+    top: 9.3em;
+    
+    left: 3.8em;
+    margin: auto;
+    color: white;
+    font-weight: 100;
+}
+.nav{
+    z-index: 1;
+    background:transparent;
+    display: flex;
+    align-content:center ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.nav ul li{
+    
+    
+    display: inline-block;
+    position:relative;
+    margin:  0px 10px;
+    padding-top: 20px;
+    padding-right:2em;
+    padding-bottom: 0;
+    
+
+    
+
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+    transition: background-color 0.5sec;
+   
+    
+    
+    
+   
+}
+.nav ul{
+    margin-left: auto;
+    
+}
+.nav ul li a:hover{
+background-color:red;
+border-radius: 5px;
+    
+
+}
+body{
+    background-color: black;
+    z-index: -1;
+    
+}
+.img4{
+    height: 45em;
+    width: 45em;
+    position: relative;
+    bottom: 25em;
+   left: 54em;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 100%;
+    
+}
+
+
+span{
+    color:red;
+    
+}
+.logo{
+    height: 5em;
+    width: 5em;
+    z-index: 1;
+    position: relative;
+    left: 3em;
+    text-align: left;
+}
+#graphic{
+    
+    display: block;
+    z-index: 0;
+    height: 30em;
+    width: 28em;
+    position: relative;
+    top: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+video{
+     
+    display: block;
+    z-index: -1;
+    height: 30em;
+    
+
+}
+#developer{
+    position: relative;
+    top: 24em;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#text1{
+    display: block;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;  
+    color:white;
+    position: relative;
+    top:18em;
+    width: 25%;
+    margin: auto;
+}
+#text1:hover{
+    color:white;
+    letter-spacing: 5px;
+    background-color: #8758FF;
+    border-radius: 20px;
+}
+#text2{
+    z-index: 1;
+    display: block;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;  
+    color:white;
+    position: relative;
+    top:35em;
+    
+    width: 28%;
+    margin: auto;
+}
+#text2:hover{
+    
+    color:white;
+    letter-spacing: 5px;
+    background-color:#8758FF ;
+    border-radius: 20px;
+
+    
+}
+#graphic:hover{
+    autoplay
+}
+#developer:hover{
+    autoplay
+}
+.me{
+    height: 37em;
+    width: 27em;
+    position: relative;
+    left: 10em;
+    top: 23em;
+    padding-bottom: 1em;
+   border-radius: 4em;
+}
+.me:hover{
+    height: 39em;
+    width: 29em; 
+    position: relative;
+    left: 10em;
+    top: 22em;
+}
+#para{
+    color: white;
+    font-size: 2.3rem;
+  line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 10.9em;
+    right: 2em;
+
+}
+.skills{
+    padding-top: 5em;
+}
+#about{
+    letter-spacing:2px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder ;
+   font-size: 60px;
+   display: block;
+   text-align: center;
+   margin: auto;
+   position: relative;
+   top: 5.5em;
+   color:red;
+}
+.phone{
+    height: 3em;
+    width: 3em;
+position: relative;
+top: 35.3em;
+left: 10em;
+
+}
+
+  
+#contact{
+    letter-spacing:2px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder ;
+   font-size: 60px;
+   display: block;
+   
+   margin: auto;
+   color:red;
+   
+    position: relative;
+    top: 9em;
+   left: 2.7em;
+
+   
+}
+#mynumber{
+    z-index: 1;
+    font-size: 1.2em;
+    display: block;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;  
+    color:white;
+    margin: auto;
+    color:white;
+    position: absolute;
+    top:317em;
+    left: 12em;
+   
+}
+.email{
+    height: 3em;
+    width: 3em;
+position: relative;
+top: 24em;
+left: 10em;
+
+
+}
+#myemail{
+    height: 10em;
+    width: 10em;
+position: relative;
+top: 30.5em;
+display: block;
+font-family: 'Open Sans', sans-serif; 
+text-align: center;  
+color:white;
+margin: auto;
+position: relative;
+right: 2.5em;
+font-size: 1.2em;
+}
+.form{
+    position: relative;
+    top: 34em;
+    right: 2em;
+    background-color:transparent;
+    z-index: 1;
+    border-radius: 1em;
+
+}
+
+input,textarea{
+    
+    width: 100%;
+    color:white;
+    background: transparent;
+    border: 1px solid red;
+padding: 16px;
+font-size: 18px;
+    margin-bottom: 1.5em;
+border-radius: 1em;
+}
+#name{
+    border-radius: 1em;
+    height: 5em;
+}
+.contact{
+    position: 25em;
+}
+.poster{
+    z-index: 1;
+}
+#poster1{
+    width: 25em;
+    height: 33em;
+    position: relative;
+    top: 60em;
+    margin-left: 3em;
+    border: 10px solid red;
+    border-radius: 2em;
+    
+}
+#poster1:hover{
+    height: 35em;
+    width: 27em;
+}
+#poster2{
+    
+    width: 25em;
+    height: 33em;
+    position: relative;
+    top: 27em;
+    left: 35em;
+    border: 10px solid red;
+    border-radius: 2em;
+    
+   
+}
+#poster2:hover{
+    height: 35em;
+    width: 27em;
+
+}
+
+#poster3{
+    width: 25em;
+    height: 33em;
+    position: absolute;
+    left: 63.5em;
+    top: 180.5em;
+    border: 10px solid red;
+    border-radius: 2em;
+
+    
+
+    margin-left: 3em;
+
+}
+#poster3:hover{
+    height: 35em;
+    width: 27em;
+}
+
+#poster4{
+    display: block;
+    width: 55em;
+    height: 30em;
+    position: relative;
+    top: 32em;
+    margin-left: 19.8em;
+    border: 10px solid red;
+    border-radius: 2em;
+}
+#poster4:hover{
+    height: 32em;
+    width: 57em;
+}
+
+#poster5{
+    position: relative;
+    top: 37em;
+    width: 42em;
+    height: 30em;
+    border: 10px solid red;
+    border-radius: 2em;
+    margin-left: 3em;
+
+}
+#poster5:hover{
+    height: 32em;
+    width: 44em;
+}
+
+#poster6{
+    position: relative;
+    top: 7.1em;
+    width: 42em;
+    height: 30em;
+    border: 10px solid red;
+    border-radius: 2em;
+    margin-left: 50em;
+
+}
+#poster6:hover{
+    height: 32em;
+    width: 44em;
+}
+
+#poster7{
+   
+    position: relative;
+    top: 12em;
+    left: 1em;
+    width: 42em;
+    height: 30em;
+    border: 10px solid red;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+#poster7:hover{
+    height: 32em;
+    width: 44em;
+}
+
+#poster8{
+    
+   height: 34em;
+   width: 29em;
+   border: 10px solid red;
+   border-radius: 2em;
+   position: relative;
+   top: 16.8em;
+   left: 34em;
+}
+#poster8:hover{
+    height: 36em;
+    width: 31em;
+}
+
+#poster9{
+    position: absolute;
+    top: 288.5em;
+    right: 2.5em;
+    width: 42em;
+    height: 29.5em;
+    border: 10px solid red;
+    border-radius: 2em;
+    margin-left: 50em;
+}
+#poster9:hover{
+    height: 32em;
+    width: 44em;
+}
+#mywork1{
+    z-index: 1;
+    letter-spacing:2px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder ;
+   font-size: 60px;
+   display: block;
+   text-align: center;
+   margin: auto;
+   position: absolute;
+   top: 45.5em;
+   left: 10em;
+   color:red;
+}
+#submit{
+    
+    margin: 0;
+    border: 2px solid  red;
+    color: red;
+    background: transparent;
+border-radius: 1em;
+
+}
+
