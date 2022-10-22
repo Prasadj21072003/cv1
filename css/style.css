@@ -355,7 +355,7 @@ left: 10em;
     margin: auto;
     color:white;
     position: absolute;
-    top:317em;
+    top:331em;
     left: 12em;
    
 }
@@ -450,7 +450,7 @@ border-radius: 1em;
     height: 33em;
     position: absolute;
     left: 63.5em;
-    top: 180.5em;
+    top: 197em;
     border: 10px solid red;
     border-radius: 2em;
 
@@ -532,7 +532,7 @@ border-radius: 1em;
    border: 10px solid red;
    border-radius: 2em;
    position: relative;
-   top: 16.8em;
+   top: 17.5em;
    left: 34em;
 }
 #poster8:hover{
@@ -542,7 +542,7 @@ border-radius: 1em;
 
 #poster9{
     position: absolute;
-    top: 288.5em;
+    top: 305.5em;
     right: 2.5em;
     width: 42em;
     height: 29.5em;
@@ -570,11 +570,77 @@ border-radius: 1em;
 }
 #submit{
     
-    margin: 0;
-    border: 2px solid  red;
+    margin-bottom: 3em;
+    width:100px;
+    height:40px;
+    border-width:3px;
+
+    border-color:#d02718;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
     color: red;
     background: transparent;
-border-radius: 1em;
+
 
 }
+#submit:hover{
+    background-color:red;
+    color: white;
 
+}
+#codingprojects{
+    letter-spacing:2px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder ;
+   font-size: 30px;
+   display: block;
+   text-align: left;
+   margin: auto;
+   position: relative;
+   left: 2em;
+   top: 31em;
+   color:red;
+}
+#designprojects{
+    letter-spacing:2px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder ;
+   font-size: 30px;
+   display: block;
+   text-align: left;
+   margin: auto;
+   position: relative;
+   left: 2em;
+   top: 30em;
+   color:red;
+}
+
+.button{
+    margin: 5em;
+    position:relative;
+    left: 31%;
+    top: 60em;
+    font-size:15px;
+    font-family:Arial;
+    font-weight: 900;
+    width:140px;
+    height:50px;
+    border-width:3px;
+    color:rgba(250, 6, 6, 1);
+    border-color:#d02718;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    text-shadow:inset 30px 50px 0px rgba(236, 28, 11, 1);
+    background-color:transparent;
+  }
+  .button:hover{
+    color: white;
+    background-color:red;
+  }
+  
+                
+  
